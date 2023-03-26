@@ -1,18 +1,18 @@
 Hasan Server 
 # Get All Data
-GET : http://localhost:3000/api/data
+GET : https://pwctask004.onrender.com/api/data
 
 # Get One Data
-GET : http://localhost:3000/api/data/:id
+GET : https://pwctask004.onrender.com/api/data/:id
 
 # Update One Data
-PUT : http://localhost:3000/api/data/:id
+PUT : https://pwctask004.onrender.com/api/data/:id
 
 # DELETE One Data
-DELETE : http://localhost:3000/api/data/:id
+DELETE : https://pwctask004.onrender.com/api/data/:id
 
 # Add One Data
-POST : http://localhost:3000/api/data
+POST : https://pwctask004.onrender.com/api/data
 
 Body :  {
     "name" : "Hassan",
