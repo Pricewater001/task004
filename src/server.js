@@ -1,12 +1,9 @@
+require("dotenv").config();
 const {notFound} = require("./middlewares");
 const routes = require("./Routes");
-
 const express = require("express");
 const app = express();
 const cors = require("cors");
-
-require("dotenv").config();
-
 
 app.use(cors());
 app.use(express.json());
@@ -28,6 +25,5 @@ function start(port) {
 app.use(notFound);
 
 module.exports = {
-  app,
   start,
 };
